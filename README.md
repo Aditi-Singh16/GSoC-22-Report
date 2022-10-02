@@ -41,11 +41,29 @@ These deliverables were implemented during the two week research visit to the wo
 ## Preview of objectives
 
 ### 1. Seal Portal
-  - *Final outcome:*\
+  - *Final outcome:*
       - All Sources regarding CDLI seals have been aggregated at one place.
 <center>
 
 | Seal Portal |
+| :---:	|
+| <img src="" width="800" height="450"> |
+|  |
+
+</center>
+
+<center>
+
+| Featured Seals Add forms |
+| :---:	|
+| <img src="" width="800" height="450"> |
+|  |
+
+</center>
+
+<center>
+
+| Featured Seals Edit forms |
 | :---:	|
 | <img src="" width="800" height="450"> |
 |  |
@@ -105,6 +123,7 @@ These deliverables were implemented during the two week research visit to the wo
 | Reader page for artifact Id |
 
 </center>
+
 
 
 ## To Do (Post GSoC)
