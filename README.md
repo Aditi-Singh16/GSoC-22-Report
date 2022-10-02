@@ -35,7 +35,7 @@ These deliverables were implemented during the two week research visit to the wo
 | \# | Objectives                    | Associated Deliverables         |  Pull Requests |    Status | 
 | --- | ----------------------------- | -------------------------------------------- | -------- |-------|
 | 1 |  Add credits for image annotations | On the reader page users can see who created, and who modified the annotations| [!740](https://gitlab.com/cdli/framework/-/merge_requests/740) | :heavy_check_mark: 
-| 2 | Bulk upload for image annotations  | Users can upload a W3c.json file and it will be added to the database | [!741](https://gitlab.com/cdli/framework/-/merge_requests/741) | :white_check_mark:|
+| 2 | Bulk upload for image annotations  | Users can upload a W3c.json file and it will be added to the database | [!741](https://gitlab.com/cdli/framework/-/merge_requests/741) <br> I have worked on the upload and confirm upload interface - [Branch link](https://gitlab.com/cdli/framework/-/tree/phoenix/feature/bulk-update-annotations) | :white_check_mark:|
 
 
 ## Preview of objectives
