@@ -40,38 +40,35 @@ These deliverables were implemented during the two week research visit to the wo
 
 ## Preview of objectives
 
-### 1. Keywords search
+### 1. Seal Portal
   - *Final outcome:*\
-      Keywords search field can internally query all the fields of the database and return results accordingly.
-  - *Methodology:*
-      * Used Elasticsearch query DSL format in backend.
+      - All Sources regarding CDLI seals have been aggregated at one place.
 <center>
 
-| Keyword's search |
+| Seal Portal |
 | :---:	|
-| <img src="assets/gifs/keywords.gif" width="800" height="450"> |
-| Search results for "Vorderasiatisches Museum" in Keyword's field. |
+| <img src="" width="800" height="450"> |
+|  |
 
 </center>
 
-### 2. Fuzzy Id's search
+### 2. Seal Single View
  - *Final outcome:*\
-    Id's Search should yield results even if input query is not in exact format.
- - *Methodology:*
-     * Processed the input query by applying regex operations before performing search.  
+    - Seal Chemistry Graphical and Tabular Visualizations for artifacts that are seals.
+    - Export as CSV feature. 
 <center>
 
-| Fuzzy Id's search |
+| Seal Single View |
 | :---:	|
-| <img src="assets/gifs/fuzzy-ids.gif" width="800" height="450"> |
-| Search yields results even for improper input format "A1169" for Museum Id "OIM A01169" in Id's search |
+| <img src="" width="800" height="450"> |
+| Seal single view for artifact with id |
 
 </center>
 
-### 3. Highlight inscriptions
+### 3. Seal Chemistry Add forms
 
 - *Final outcome:*\
-   Highlight the inscription input in search results.
+   - Users can 
 - *Methodology:*
     * The text in the inscription field of each search result was processed using regex so that it can highlight the input query. 
 
@@ -84,7 +81,7 @@ These deliverables were implemented during the two week research visit to the wo
 
 </center>
 
-### 4. Sign Value permutation
+### 4. Artifact Viewer Page
 
 - *Final outcome:*\
    Search results of all possible sign-readings of input sign-values are returned.
@@ -95,7 +92,7 @@ These deliverables were implemented during the two week research visit to the wo
 
 <center>
 
-| Sign Value permutation |
+| Artifact Viewer |
 | :---:	|
 | <img src="assets/gifs/sign-permutation.gif" width="800" height="450"> |
 | All possible sign-readings of input "muk" can be searched with sign-name "MUG". |
