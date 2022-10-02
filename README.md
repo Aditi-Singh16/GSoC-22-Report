@@ -2,7 +2,8 @@
 <p align="center"><i>with</i> </p>
 <h2 align="center"><a href="https://summerofcode.withgoogle.com/organizations/4724093699489792/">Cuneiform Digital Library Initiative (CDLI)</a></h2>
 
-<h2 align="center">![GSoC with CDLI](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQLlztMEvCm115vczTLOX_KidDNblGQLP7Cg&usqp=CAU)</h2>
+<h2 align="center"><img src=https://user-images.githubusercontent.com/74586135/193470025-ad213327-a1ca-4f85-9df5-4a5692ee6d6f.png /> </h2>
+
 
 <h2 align="center"><i>Project Report on "<a href="https://summerofcode.withgoogle.com/proposals/details/4DK6p7UC">Seal Portal</a>" </i> </h2>
 
@@ -17,17 +18,25 @@ The seals portal aims at displaying all of the resources in the CDLI concerning 
 Mentor : [Jacob Dahl](https://www.orinst.ox.ac.uk/people/jacob-l-dahl) and [Timo Homburg](https://github.com/situx)
 
 ### Objectives and Deliverables
+Completed tasks -> :heavy_check_mark: <br> Ongoing task -> :white_check_mark:
 
 | \# | Objectives                    | Associated Deliverables         | Additional deliverables | issue(s) | Pull Requests |    Status | 
 | --- | ----------------------------- | -------------------------------------------- | -------- |-------| -------- | ---- |
 | 1 |  Implement required changes to the database and edit the model files accordingly| Setting up the image_annotations table <br>- Creating respective model files <br>- Bulk update of image_annotations table | |[#1336](https://gitlab.com/cdli/framework/-/issues/1136) | [!649](https://gitlab.com/cdli/framework/-/merge_requests/649) |:heavy_check_mark:|
 | 2 | The seals portal | - Displaying Best Attested Composite seals with image and description.<br>- Create a table and respective model files for best_attested_seals <br>- Tabular representation of seals, categorized by period.<br>- Displaying and grouping seals categories: Physical Seals, Composite Seals, Sealings, All CDLI seals| - Creating Well Attested seals add and edit forms |[#700](https://gitlab.com/cdli/framework/-/issues/700)<br> [#1227](https://gitlab.com/cdli/framework/-/issues/1227)<br>[#1241](https://gitlab.com/cdli/framework/-/issues/1241)|[!661](https://gitlab.com/cdli/framework/-/merge_requests/661)<br>[!700](https://gitlab.com/cdli/framework/-/merge_requests/700)<br>[!737](https://gitlab.com/cdli/framework/-/merge_requests/737)|:heavy_check_mark: |
 | 3 | Implementing seals single view | Implementation of a PHP library for graphical representation of chemical information of seals.<br>- A feature to view only top n elements (based on weight)<br>A switch to convert the graph into a table view. <br> - Graphical visualisation of element weight in that seal in the form of line chart and bar graph | -Creating add edit forms for seal chemistry.<br>-Creating add edit forms for seal chemistry standards. <br> - Export of chemical data as CSV | [#1332](https://gitlab.com/cdli/framework/-/issues/1132)<br>| [!687](https://gitlab.com/cdli/framework/-/merge_requests/687)<br>[!707](https://gitlab.com/cdli/framework/-/merge_requests/707) | :heavy_check_mark: |
-| 4 | Adding image annotation viewer and integrating it with annotorious-open seadragon |Create the viewer page<br>- Generate tiles for deepzoom<br>- Integrate with annotorious-openseadragon||[#736](https://gitlab.com/cdli/framework/-/issues/736)<br>[#1288](https://gitlab.com/cdli/framework/-/issues/1288)| [!740](https://gitlab.com/cdli/framework/-/merge_requests/740)<br> [Viewer page branch](https://gitlab.com/cdli/framework/-/tree/phoenix/feature/viewerpage) | :heavy_check_mark: |
+| 4 | Adding image annotation viewer and integrating it with annotorious-open seadragon |Create the viewer page<br>- Generate tiles for deepzoom<br>- Integrate with annotorious-openseadragon||[#736](https://gitlab.com/cdli/framework/-/issues/736)<br>[#1288](https://gitlab.com/cdli/framework/-/issues/1288)| [Viewer page branch](https://gitlab.com/cdli/framework/-/tree/phoenix/feature/viewerpage) | :heavy_check_mark: |
 | 5 | Implement a convertor from coco format to w3c.json format |To Study more about w3c.json and COCO image annotations format<br>- Comparing both coco and w3c.json annotation formats to create SVG points layout<br>- Writing a python script that takes in coco_format and gives w3c.json format<br>- Add the convertor to the docker container.|| [#1430](https://gitlab.com/cdli/framework/-/issues/1430) | [Standalone repository for conversion](https://github.com/cdli-gh/coco-convertor) |:heavy_check_mark: |
-| 6 | Search settings integration | Users will be able to save specific configuration of search settings and search results will be displayed accordingly. |[#540](https://gitlab.com/cdli/framework/-/issues/540) | [!332](https://gitlab.com/cdli/framework/-/merge_requests/332) | :heavy_check_mark: |
-| 7 | Input flexibility enhancements |Users will have the flexibility to search with both UTF-8 and ASCII characters |[#597](https://gitlab.com/cdli/framework/-/issues/597)|[!375](https://gitlab.com/cdli/framework/-/merge_requests/375) |:heavy_check_mark: |
-| 8 | Filter search results by RTI Image, Transliterations , 3D Data | Users can apply filters such as RTI Image, Transliterations, 3D Data and get search results | [#136](https://gitlab.com/cdli/framework/-/issues/136) | [!369](https://gitlab.com/cdli/framework/-/merge_requests/369) |:heavy_check_mark: |
+
+
+### Additional Deliverables
+These deliverables were implemented during the two week research visit to the wolfson college, university of oxford.
+
+| \# | Objectives                    | Associated Deliverables         |  Pull Requests |    Status | 
+| --- | ----------------------------- | -------------------------------------------- | -------- |-------|
+| 1 |  Add credits for image annotations | On the reader page users can see who created, and who modified the annotations| [!740](https://gitlab.com/cdli/framework/-/merge_requests/740) | :heavy_check_mark: 
+| 2 | Bulk upload for image annotations  | Users can upload a W3c.json file and it will be added to the database | [!741](https://gitlab.com/cdli/framework/-/merge_requests/741) | :white_check_mark:|
+
 
 ## Preview of objectives
 
