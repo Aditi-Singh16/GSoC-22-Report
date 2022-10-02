@@ -47,7 +47,7 @@ These deliverables were implemented during the two week research visit to the wo
 
 | Seal Portal |
 | :---:	|
-| <img src="" width="800" height="450"> |
+|<video src="https://user-images.githubusercontent.com/74586135/193475126-bc3c67fe-c7b2-4e69-b2f0-2ea0d90e6158.mp4" controls="controls">|
 |  |
 
 </center>
@@ -56,7 +56,7 @@ These deliverables were implemented during the two week research visit to the wo
 
 | Featured Seals Add forms |
 | :---:	|
-| <img src="" width="800" height="450"> |
+|<video src="https://user-images.githubusercontent.com/74586135/193475254-aadd6773-9290-4eac-bb55-325f282ac82e.mp4" controls="controls">|
 |  |
 
 </center>
@@ -65,7 +65,7 @@ These deliverables were implemented during the two week research visit to the wo
 
 | Featured Seals Edit forms |
 | :---:	|
-| <img src="" width="800" height="450"> |
+| <video src="https://user-images.githubusercontent.com/74586135/193475375-054b8139-feac-4351-ba52-e3ad63beea66.mp4" controls="controls"> |
 |  |
 
 </center>
@@ -78,8 +78,8 @@ These deliverables were implemented during the two week research visit to the wo
 
 | Seal Single View |
 | :---:	|
-| <img src="" width="800" height="450"> |
-| Seal single view for artifact with id |
+| <video src="https://user-images.githubusercontent.com/74586135/193475341-ab1dd6e9-87d1-4501-a00c-c0a082141160.mp4" controls="controls"> |
+| Seal single view for artifact with id 473511 |
 
 </center>
 
@@ -96,13 +96,13 @@ These deliverables were implemented during the two week research visit to the wo
 
 | Seal Chemistry Add form |
 | :---:	|
-| <img src="" width="800" height="450"> |
+| <video src="https://user-images.githubusercontent.com/74586135/193475320-a9d8311e-1a71-4e95-abe4-8a727d087428.mp4" controls="controls"> |
 | Adding the seal chemistry using this sheet |
   
  
 | Calibration Add form |
 | :---:	|
-| <img src="" width="800" height="450"> |
+| <video src="https://user-images.githubusercontent.com/74586135/193475304-69a02243-a9c9-40c5-999a-c2d3d12ae965.mp4" controls="controls"> |
 | Adding the calibration using this sheet |
 
 </center>
@@ -135,3 +135,7 @@ These deliverables were implemented during the two week research visit to the wo
 ## Acknowledgements
 
 Participating in GSoC was a great learning curve for me, I faced alot of challenges in this journey which helped me in learning new skills. I would like to thank my mentors [Jacob Dahl](https://www.orinst.ox.ac.uk/people/jacob-l-dahl) and [Timo Homburg](https://github.com/situx) for guiding me and helping me throughout my GSoC journey. I shall always be indebted to such a welcoming organisation to help me enhance my coding skills.
+
+
+
+
