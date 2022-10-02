@@ -53,7 +53,7 @@ These deliverables were implemented during the two week research visit to the wo
 </center>
 
 ### 2. Seal Single View
- - *Final outcome:*\
+ - \*Final outcome:
     - Seal Chemistry Graphical and Tabular Visualizations for artifacts that are seals.
     - Export as CSV feature. 
 <center>
@@ -67,87 +67,45 @@ These deliverables were implemented during the two week research visit to the wo
 
 ### 3. Seal Chemistry Add forms
 
-- *Final outcome:*\
-   - Users can 
-- *Methodology:*
-    * The text in the inscription field of each search result was processed using regex so that it can highlight the input query. 
+- \*Final outcome:*\
+   - Users can add the chemical information about a seal by uploading a csv sheet and choosing a calibration file.
+       - Users can also Export a chemistry file as CSV.
+       - Admins can delete a particular Entry.
+   - Users can also add a calibration file for standards of the instrument taking the chemical information.
+       - This also includes credits information.
 
 <center>
 
-| Highlight inscriptions |
+| Seal Chemistry Add form |
 | :---:	|
-| <img src="assets/gifs/highlight-inscriptions.gif" width="800" height="450"> |
-| Highlights the inscription input "muk" in search results |
+| <img src="" width="800" height="450"> |
+| Adding the seal chemistry using this sheet |
+  
+ 
+| Calibration Add form |
+| :---:	|
+| <img src="" width="800" height="450"> |
+| Adding the calibration using this sheet |
 
 </center>
 
 ### 4. Artifact Viewer Page
 
 - *Final outcome:*\
-   Search results of all possible sign-readings of input sign-values are returned.
+   - Users can view zoomed version of an artifact image with annotated areas.
+       - They can also view the credits for a particular annotation 
 - *Methodology:*
-   * Sign names field was added and populated in database.
-   * Containerised jtf-lib library in docker to make requests and get response in the framework.
-   * Input query was converted to sign-names using jtf-lib and these sign-names along with sign-values are used to perform the search. 
+   * This was achieved using the Annotorious and Openseadragon library.
 
 <center>
 
 | Artifact Viewer |
 | :---:	|
-| <img src="assets/gifs/sign-permutation.gif" width="800" height="450"> |
-| All possible sign-readings of input "muk" can be searched with sign-name "MUG". |
+| <img src="" width="800" height="450"> |
+| Reader page for artifact Id |
 
 </center>
 
-### 5. Search Settings
-
-- *Final outcome:*\
-   Search settings can be saved in session and search results will be displayed accordingly. 
-- *Methodology:*
-   * Used cakePHP sessions to store the search settings and applied it on the search results.
-
-
-<center>
-
-| Search Settings |
-| :---:	|
-| <img src="assets/gifs/search-settings.gif" width="800" height="450"> |
-| Removed "Museum collections" and "Period" from search results by modifing Search Settings.  |
-
-</center>
-
-### 6. Input flexibility enhancements
-
-- *Final outcome:*\
-   Users can search with both UTF-8 and ASCII characters
-- *Methodology:*
-   * Used UTF8 to ASCII mapping for converting the input into ASCII before performing search.
-
-<center>
-
-| Input flexibility enhancements |
-| :---:	|
-| <img src="assets/gifs/input-flexibility.gif" width="800" height="450"> |
-| UTF-8 input "diš2" yields search results for ASCII format "disz2" |
-
-</center>
-
-### 7. Images and Transliteration Filter
-
-- *Final outcome:*\
-   Search results can be filtered w.r.t to Images and Transliteration according to the access of the user.
-- *Methodology:*
-   * Created new index for "Images" table.
-   * Added elasticsearch queries which would filter results according to the access.
-
-<center>
-
-| Images and Transliteration Filter |
-| :---:	|
-| <img src="assets/gifs/images-filter.gif" width="800" height="450"> |
-| Search results filtered having image type as "photo". |
-
-</center>
 
 ## To Do (Post GSoC)
 
