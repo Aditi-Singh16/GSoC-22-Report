@@ -71,7 +71,7 @@ These deliverables were implemented during the two week research visit to the wo
 </center>
 
 ### 2. Seal Single View
- - \*Final outcome:
+ - *Final outcome:*
     - Seal Chemistry Graphical and Tabular Visualizations for artifacts that are seals.
     - Export as CSV feature. 
 <center>
@@ -85,7 +85,7 @@ These deliverables were implemented during the two week research visit to the wo
 
 ### 3. Seal Chemistry Add forms
 
-- \*Final outcome:*\
+- *Final outcome:*
    - Users can add the chemical information about a seal by uploading a csv sheet and choosing a calibration file.
        - Users can also Export a chemistry file as CSV.
        - Admins can delete a particular Entry.
@@ -109,7 +109,7 @@ These deliverables were implemented during the two week research visit to the wo
 
 ### 4. Artifact Viewer Page
 
-- *Final outcome:*\
+- *Final outcome:*
    - Users can view zoomed version of an artifact image with annotated areas.
        - They can also view the credits for a particular annotation 
 - *Methodology:*
