@@ -119,7 +119,7 @@ These deliverables were implemented during the two week research visit to the wo
 
 | Artifact Viewer |
 | :---:	|
-| <img src="" width="800" height="450"> |
+| <video src=https://user-images.githubusercontent.com/74586135/193633826-a4a16a2c-e3ad-4c7d-9fcd-27956c05eb01.mp4 controls="controls">|
 | Reader page for artifact Id |
 
 </center>
