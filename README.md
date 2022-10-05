@@ -30,7 +30,7 @@ Completed tasks -> :heavy_check_mark: <br> Ongoing task -> :white_check_mark:
 
 
 ### Additional Deliverables
-These deliverables were implemented during the two week research visit to the wolfson college, university of oxford.
+These deliverables were implemented by Lars Willighagen and myself during the two week research visit to the Wolfson college, University of Oxford.
 
 | \# | Objectives                    | Associated Deliverables         |  Pull Requests |    Status | 
 | --- | ----------------------------- | -------------------------------------------- | -------- |-------|
