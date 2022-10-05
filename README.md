@@ -132,9 +132,9 @@ These deliverables were implemented by Lars Willighagen and myself during the tw
 * Addition of additional features.
 * Documentation
 
-## Acknowledgements
 
-Participating in GSoC was a great learning curve for me, I faced alot of challenges in this journey which helped me in learning new skills. I would like to thank my mentors [Jacob Dahl](https://www.orinst.ox.ac.uk/people/jacob-l-dahl) and [Timo Homburg](https://github.com/situx) for guiding me and helping me throughout my GSoC journey. I shall always be indebted to such a welcoming organisation to help me enhance my coding skills.
+
+
 
 
 
