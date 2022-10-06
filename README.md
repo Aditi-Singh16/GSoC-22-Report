@@ -134,7 +134,8 @@ These deliverables were implemented by Lars Willighagen and myself during the tw
 
 
 
-
+## Acknowledgements
+I would like to thank my mentors and reviewers Jacob Dahl, Emilie Page Perron, Lars Willighagen and Timo Homburg for clearing my doubts and supporting me throughout the journey. Participating in GSoC has enhanced my coding practices and has improved my analytical skills. I would definitely keep contributing to this amazing Organization!!
 
 
 
