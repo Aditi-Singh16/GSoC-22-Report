@@ -11,7 +11,7 @@
 
 The seals portal aims at displaying all of the resources in the CDLI concerning a seal, aggregated in one place, with important features like viewing image annotations and graphical representation of seals chemistry. 
 
-<i>Proposal</i> : [Seal Portal](https://docs.google.com/document/d/1xEGPcdK9PDpQEgvwRCurv4YYFGQaSwJxwf5r62MpTUA/edit?usp=sharing)\
+<i>Proposal</i> : [Seal Portal](https://drive.google.com/file/d/1rfZ9k0Wa64aVzOcv-4fZ1ZpLcWdHcblv/view?usp=sharing)\
 <i>Contributions to CDLI</i> : [Merge Requests](https://gitlab.com/cdli/framework/-/merge_requests?scope=all&state=merged&author_username=aditiansingh)\
 <i>Weekly Blogs</i> : [Blog](https://cdli-gh.github.io/blog/gsoc22/SealsPortal/index)
 
